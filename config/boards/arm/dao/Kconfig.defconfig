@@ -33,6 +33,9 @@ config BT_CTLR
 config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
+config ZMK_BLE
+	default y
+
 if USB
 
 config USB_NRFX
