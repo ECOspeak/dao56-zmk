@@ -6,3 +6,4 @@
 board_runner_args(nrfjprog "--nrf-family=NRF52" "--softreset")
 include(${ZEPHYR_BASE}/boards/common/nrfjprog.board.cmake)
 include(${ZEPHYR_BASE}/boards/common/blackmagicprobe.board.cmake)
+include <st/l4/stm32l476r(c-e-g)tx-pinctrl.dtsi>
